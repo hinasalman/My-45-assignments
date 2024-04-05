@@ -1,22 +1,17 @@
-let alien_colr : string  = "green"
+let ilean_color: string = "yellow"
 
-if (alien_colr == "green"){
+if (ilean_color =="green"){
+    console.log("5 points")
+} else{
 
-    console.log("plyer just earned 5 points for shooting the alien")
- } else {
-    console.log("pyayer just earnrd 10 points")
- }
-////////////////////////////////////////////////
-///////////////////////////////////////////////
- 
- 
- let alien_color: string = "red"
+}
 
-if (alien_color == "green"){
-    console.log("plyer just earned 5 points for shooting the alien")
- } else {
-    console.log("pyayer just earnrd 10 points")
- }
+if (ilean_color == "yollow") {
+    console.log("10 points")
+} else {
+    console.log("15 points")
+}
 
- 
+
+
 

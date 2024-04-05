@@ -1,17 +1,13 @@
 "use strict";
-let alien_colr = "green";
-if (alien_colr == "green") {
-    console.log("plyer just earned 5 points for shooting the alien");
+let ilean_color = "yellow";
+if (ilean_color == "green") {
+    console.log("5 points");
 }
 else {
-    console.log("pyayer just earnrd 10 points");
 }
-////////////////////////////////////////////////
-///////////////////////////////////////////////
-let alien_color = "red";
-if (alien_color == "green") {
-    console.log("plyer just earned 5 points for shooting the alien");
+if (ilean_color == "yollow") {
+    console.log("10 points");
 }
 else {
-    console.log("pyayer just earnrd 10 points");
+    console.log("15 points");
 }
