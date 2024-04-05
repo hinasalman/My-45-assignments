@@ -1,5 +1,7 @@
-let famous_person: string = "Albert Einstein";
+let personNameWithWhitespace: string = "\t\n   John Doe   \t\n";
 
-let message: string = `The famous quote by ${famous_person} is: "Imagination is more important than knowledge."`;
+console.log("Name with whitespace:", personNameWithWhitespace);
 
-console.log(message);
+let strippedName: string = personNameWithWhitespace.trim();
+
+console.log("Stripped name:", strippedName);
