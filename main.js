@@ -1,19 +1,18 @@
 "use strict";
-// Define the function to create a sandwich
-function make_sandwich(...items) {
-    console.log("Sandwich Summary:");
-    if (items.length === 0) {
-        console.log("No items selected for the sandwich.");
+// Define the function to store information about a car
+function create_car(manufacturer, model, ...extras) {
+    const car = {
+        "manufacturer": manufacturer,
+        "model": model
+    };
+    // Loop through the extras and add them to the car object
+    for (const extra of extras) {
+        const [key, value] = Object.entries(extra)[0];
+        car[key] = value;
     }
-    else {
-        console.log("Items on the sandwich:");
-        for (const item of items) {
-            console.log("-${items[i]}");
-        }
-    }
-    console.log("enjoy your sandwich Hina salman");
+    return car;
 }
-// Call the function three times with different number of arguments
-make_sandwich("bread", "egg", "bowel,chicken");
-make_sandwich("kitchup", "mayeonise");
-make_sandwich("carrot", "cucumber");
+// Call the function with required information and additional name-value pairs
+const myCar = create_car("corola", "pikanto", { "color": "red" }, { "year": 2024 });
+// Print the object to make sure all the information was stored correctly
+console.log(myCar);
