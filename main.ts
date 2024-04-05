@@ -1,7 +1,7 @@
-let personNameWithWhitespace: string = "\t\n   John Doe   \t\n";
+console.log(5 + 3);
 
-console.log("Name with whitespace:", personNameWithWhitespace);
+console.log(10 - 2);
 
-let strippedName: string = personNameWithWhitespace.trim();
+console.log(4 * 2);
 
-console.log("Stripped name:", strippedName);
+console.log(16 / 2);
