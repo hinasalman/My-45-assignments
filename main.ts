@@ -1,17 +1,20 @@
-let ilean_color: string = "yellow"
+let age: number = 30;
 
-if (ilean_color =="green"){
-    console.log("5 points")
-} else{
+if (age < 2) {
+    console.log("The person is a baby.");
 
-}
+} else if (age >= 2 && age < 4) {
+    console.log("The person is a toddler.");
 
-if (ilean_color == "yollow") {
-    console.log("10 points")
+} else if (age >= 4 && age < 13) {
+    console.log("The person is a kid.");
+
+} else if (age >= 13 && age < 20) {
+    console.log("The person is a teenager.");
+
+} else if (age >= 20 && age < 65) {
+    console.log("The person is an adult.");
+    
 } else {
-    console.log("15 points")
+    console.log("The person is an elder.");
 }
-
-
-
-
