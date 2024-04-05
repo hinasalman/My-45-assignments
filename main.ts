@@ -1,21 +1,12 @@
-// Define the make_album function
-function make_album(artist: string, title: string, tracks?: number): Record<string, any> {
-    const album: Record<string, any> = {
-        "artist": artist,
-        "title": title
-    };
-    if (tracks !== undefined) {
-        album["tracks"] = tracks;
+// Define the show_magicians function
+function show_magicians(magicians: string[]): void {
+    for (const magician of magicians) {
+        console.log(magician);
     }
-    return album;
 }
 
-// Call the function to create dictionaries representing different albums
-const album1 = make_album("rose", "red");
-const album2 = make_album("salman", "my hasband, my love,my life my whole world", 12); // Including number of tracks
-const album3 = make_album("Ayesha ", "my elder,daughter");
+// Array of magician's names
+const magicians: string[] = ["Harry Houdini", "David Copperfield", "Penn Jillette", "Teller"];
 
-// Print each return value to show that Objects are storing the album information correctly
-console.log(album1);
-console.log(album2);
-console.log(album3);
+// Call the function and pass the array
+show_magicians(magicians);
