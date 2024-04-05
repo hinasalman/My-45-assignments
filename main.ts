@@ -1,17 +1,26 @@
-// List of current usernames
-const current_users: string[] = ["John", "Ayesha", "aira", "manal", "tehami"];
+// Store the numbers 1 through 9 in an array
+const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// List of new usernames
-const new_users: string[] = ["john", "anaya", "fatma", "merab", "azal"];
+// Loop through the array
+for (const num of numbers) {
+    // Check if the number is 1, 2, or 3 to determine the proper ordinal ending
+    let ordinalEnding: string;
+    if (num === 1) {
+        ordinalEnding = "st";
 
-// Loop through new_users to check availability
-for (const new_user of new_users) {
-    const usernameTaken = current_users.some(user => user.toLowerCase() === new_user.toLowerCase());
-    if (usernameTaken) {
-        console.log(`Username "${new_user}" is already taken. Please choose a different username.`);
+    } else if (num === 2) {
+
+        ordinalEnding = "nd";
+
+    } else if (num === 3) {
+
+        ordinalEnding = "rd";
+
     } else {
-        console.log(`Username "${new_user}" is available.`);
+        ordinalEnding = "th";
+        
     }
+    
+    // Print the number with its ordinal ending
+    console.log(`${num}${ordinalEnding}`);
 }
-
-
