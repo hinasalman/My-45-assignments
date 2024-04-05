@@ -1,33 +1,50 @@
-let car  = "subaru";
+let name_1 : string = "Hina"
+let name_2 : string = "Hina salman"
+let name_3 : string = "Mrs Hina salman"
 
-console.log("Is car == 'subaru'? I predict True.")
-console.log(car === 'subaru')
+if (name_1 == name_3){
+    console.log("names are equal")
 
-console.log("Is car ! == 'honda city'?  predict true.");
-console.log(car ! == 'honda city');
+} else {
+    console.log("names are not equal")
+}
 
-console.log("Is car === 'Subaru'? I predict False.");
-console.log(car === 'Subaru');
+if (name_1 != name_2){
+    console.log("names are equal")
+}
 
-console.log("Is car === 'SABARU'? I predict False.");
-console.log(car === 'SABARU');
+let age_1 : number = 18
+let age_2 : number = 22
 
-console.log("Is car.length > 6?  predict true.");
-console.log(car.length > 6);
+if (age_1 == 18) {
+    console.log("eligible for vote")
+}
+if (age_1 ==22){
+    console.log("eligible for vote in older category")
+}
+if (age_1 <= age_2){
+    console.log("younger")
+}
 
-console.log("Is car.length > !=10?  predict true.");
-console.log(car.length >  10);
-
-console.log("is 10 > 45 ? predict false")
-console.log(10 > 45)
-
-console.log("Is 3 <= 2?  predict false.");
-console.log(3 <= 2);
-
-console.log("Is 72 > 83 ?  predict true.");
-console.log(72 > 83);
-
-console.log("Is car == 'subaru' && car.length == 6? predict true ")
-console.log(car == 'subaru' && car.length == 6)
+if (age_2 >= age_1){
+    console.log("older")
+}
 
 
+if (age_1 == 18 && age_2 == 22){
+    console.log("person is eligible for vote")
+}
+
+if (age_1 == 18 || age_2 == 22){
+    console.log("person is eligible for vote")
+
+}
+
+let country : string [] = ["pakistan", "saudiArab", "india", "china"]
+if (country.includes("pakistan")){
+    console.log("pakistan is country list")
+}
+
+if (country.includes ("saudiArab")){
+    console.log("saudiArab  is not includes in an array")
+}
