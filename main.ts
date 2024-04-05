@@ -1,34 +1,16 @@
-let guestarr : string[] = ["Anaya", "Fatma", "Merab"];
+let guests: string[] = ["Anaya", "fatma"];
+console.log("due to limited space, only two people can be invited for dinner.");
 
-let canNotAttend : string = "Azal"
+while (guests.length >2 ) {
+    const removedGuest = guests.pop();
+    console.log('sorry, ${removedDuest}, you are no longer invited to dinner.');
+}
 
-let newGuest : string = "Haddi"
+guests.forEach((guest => {
+    console.log('Dear ${guest}, you are still invited to dinner.')
+}));
 
-console.log(guestarr);
+guests.pop();
+guests.pop();
 
-guestarr.map((items) =>
-console.log('Dear ${items}, I found a bigger dinner table so i am invited more peoples.')
-)
-//part 2 new
-let guestNew : string ="Azal"
-guestarr.unshift(guestNew);
-console.log(guestarr)
-
-//part 3 middle
-let middleGuest : string = "mustafa"
-let middleIntex = guestarr.length/3
-guestarr.splice(middleIntex,0,middleGuest)
-console.log(guestarr) 
-
-//part 4 append
-guestarr.push("Abdullah")
-console.log(guestarr)
-
-//part 5 
-guestarr.map((items)=>
-console.log('dear ${items}, You are invited in the more people category on dinner'));
-
-
-
-
-
+console.log("final guest list:", guests);
