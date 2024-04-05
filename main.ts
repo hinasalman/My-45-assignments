@@ -1,14 +1,13 @@
-// Define the make_shirt function with default values
-function make_shirt(size: string = "large", message: string = "I love TypeScript"): void {
-    console.log(`Shirt size: ${size.toUpperCase()}`);
-    console.log(`Message: ${message}`);
+// Define the describe_city function with a default value for country
+function describe_city(city: string, country: string = "Pakistan"): void {
+
+    console.log(`${city} is in ${country}.`);
+    
 }
 
-// Call the function to make a large shirt with the default message
-make_shirt();
+// Call the function for three different cities
+describe_city("Karachi");
 
-// Call the function to make a medium shirt with the default message
-make_shirt("medium");
+describe_city("newyork, USA");
 
-// Call the function to make a shirt of any size with a different message
-make_shirt("small", "Hello, World!");
+describe_city("isalamabad");
