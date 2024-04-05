@@ -1,5 +1,8 @@
-// Define the number of guests
-const numberOfGuests: number = 6; // You can change this number as per your requirement
+// Define an array of countries
+const countries: string[] = ["dubai", "oman", "UK", "Australia", "France", "Japan", "Brazil", "India", "China"];
 
-// Print a message indicating the number of people invited to dinner
-console.log(`You are inviting ${numberOfGuests} people to dinner.`);
+// Print the list of countries
+console.log("List of countries:");
+countries.forEach((country, index) => {
+    console.log(`${index + 1}. ${country}`);
+});
