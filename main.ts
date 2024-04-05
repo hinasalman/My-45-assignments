@@ -1,7 +1,5 @@
-let famousPerson: string = "Albert Einstein"
+let famous_person: string = "Albert Einstein";
 
-let quote: string = "A person who never made a mistake never tried anything new.";
+let message: string = `The famous quote by ${famous_person} is: "Imagination is more important than knowledge."`;
 
-let author: string = '${famousPerson} once said,"${quote}"';
-
-console.log("message",);
+console.log(message);

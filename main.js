@@ -1,5 +1,4 @@
 "use strict";
-let famousPerson = "Albert Einstein";
-let quote = "A person who never made a mistake never tried anything new.";
-let author = '${famousPerson} once said,"${quote}"';
-console.log("message");
+let famous_person = "Albert Einstein";
+let message = `The famous quote by ${famous_person} is: "Imagination is more important than knowledge."`;
+console.log(message);
