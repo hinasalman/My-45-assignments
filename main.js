@@ -1,6 +1,7 @@
 "use strict";
 let Name = ["salman", "Hina", "Ayesha.Aira", "Manal"];
-console.log(Name[0]);
-console.log(Name[1]);
-console.log(Name[2]);
-console.log(Name[3]);
+let message = "My family";
+console.log("names[0] + + message");
+console.log("names[1] + +message");
+console.log("names[2] + + message");
+console.log("names[3] + + message");
