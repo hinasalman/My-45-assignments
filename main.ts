@@ -1,7 +1,10 @@
-console.log(5 + 3);
+// Store your favorite number in a variable
+let favoriteNumber: number = 7;
 
-console.log(10 - 2);
+// Create a message that reveals your favorite number
+let message: string = `My favorite number is ${favoriteNumber}.`;
 
-console.log(4 * 2);
+// Print the message
+console.log(message);
 
-console.log(16 / 2);
+
