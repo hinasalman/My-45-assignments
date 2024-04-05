@@ -1,17 +1,6 @@
-let Name : string [] = ["salman","Hina","Ayesha.Aira","Manal"];
+let transpotation : string []= ["Honda Motercycle", "Audi", "Honda City"];
 
-let message: string = "My family"
-
-
-console.log("names[0] + + message");
-console.log("names[1] + +message" );
-console.log("names[2] + + message");
-console.log("names[3] + + message");
-
-
-
-
-
+transpotation.map((items) => console.log('I would like to own a ${items}'));
 
 
 

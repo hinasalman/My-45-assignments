@@ -1,7 +1,3 @@
 "use strict";
-let Name = ["salman", "Hina", "Ayesha.Aira", "Manal"];
-let message = "My family";
-console.log("names[0] + + message");
-console.log("names[1] + +message");
-console.log("names[2] + + message");
-console.log("names[3] + + message");
+let transpotation = ["Honda Motercycle", "Audi", "Honda City"];
+transpotation.map((items) => console.log('I would like to own a ${items}'));
