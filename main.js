@@ -1,9 +1,9 @@
 "use strict";
-// Define the describe_city function with a default value for country
-function describe_city(city, country = "Pakistan") {
-    console.log(`${city} is in ${country}.`);
+// Define the city_country function
+function city_country(city, country) {
+    return `${city}, ${country}`;
 }
-// Call the function for three different cities
-describe_city("Karachi");
-describe_city("newyork, USA");
-describe_city("isalamabad");
+// Call the function with three city-country pairs and print the returned value
+console.log(city_country("Lahore", "Pakistan"));
+console.log(city_country("New York", "USA"));
+console.log(city_country("London", "UK"));
