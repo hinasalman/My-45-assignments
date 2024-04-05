@@ -1,15 +1,7 @@
-// Store the person's name in a variable
-let personName: string = "Salman khan";
+let famousPerson: string = "Albert Einstein"
 
-// Print the person's name in lowercase
-console.log("Lowercase:", personName.toLowerCase());
+let quote: string = "A person who never made a mistake never tried anything new.";
 
-// Print the person's name in uppercase
-console.log("Uppercase:", personName.toUpperCase());
+let author: string = '${famousPerson} once said,"${quote}"';
 
-// Print the person's name in titlecase
-console.log("Titlecase:",(personName));
-
-// Function to convert a string to titlecase
-console.log("titlecase:",  personName.replace(/\b\w/g, c => c.toUpperCase()));
-
+console.log("message",);
