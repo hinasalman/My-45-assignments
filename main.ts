@@ -1,6 +1,4 @@
-let transpotation : string []= ["Honda Motercycle", "Audi", "Honda City"];
+let guestarr : string [] = ["Ayesha", "Aira", "Manal"];
 
-transpotation.map((items) => console.log('I would like to own a ${items}'));
-
-
+guestarr.map((items)=> (console.log('Dear ${items} , You are invited to the dinner')));
 

@@ -1,3 +1,3 @@
 "use strict";
-let transpotation = ["Honda Motercycle", "Audi", "Honda City"];
-transpotation.map((items) => console.log('I would like to own a ${items}'));
+let guestarr = ["Ayesha", "Aira", "Manal"];
+guestarr.map((items) => (console.log('Dear ${items} , You are invited to the dinner')));
