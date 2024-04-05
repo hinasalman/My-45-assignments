@@ -1,14 +1,14 @@
-// Define the make_shirt function
-function make_shirt(size: string, message: string): void {
-
+// Define the make_shirt function with default values
+function make_shirt(size: string = "large", message: string = "I love TypeScript"): void {
     console.log(`Shirt size: ${size.toUpperCase()}`);
-
     console.log(`Message: ${message}`);
-
 }
 
-// Call the function with size and message arguments
-make_shirt("medium", "Hello, World!");
+// Call the function to make a large shirt with the default message
+make_shirt();
 
+// Call the function to make a medium shirt with the default message
+make_shirt("medium");
 
-
+// Call the function to make a shirt of any size with a different message
+make_shirt("small", "Hello, World!");
