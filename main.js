@@ -1,9 +1,9 @@
 "use strict";
-// Store the names of favorite pizzas in an array
-const pizzas = ["Pepperoni", "Margherita", "BBQ Chicken"];
-// Loop through the array to print each pizza name and a corresponding statement
-for (const pizza of pizzas) {
-    console.log(`I like ${pizza} pizza.`);
+// Store the names of animals with a common characteristic in an array
+const animals = ["Dog", "Cat", "Rabbit"];
+// Loop through the array to print each animal name and a corresponding statement
+for (const animal of animals) {
+    console.log(`A ${animal.toLowerCase()} would make a great pet.`);
 }
-// Print an additional sentence expressing love for pizza
-console.log("I really love pizza!");
+// Print a sentence stating what these animals have in common
+console.log("Any of these animals would make a great pet!");
