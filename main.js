@@ -1,40 +1,7 @@
 "use strict";
-let name_1 = "Hina";
-let name_2 = "Hina salman";
-let name_3 = "Mrs Hina salman";
-if (name_1 == name_3) {
-    console.log("names are equal");
-}
-else {
-    console.log("names are not equal");
-}
-if (name_1 != name_2) {
-    console.log("names are equal");
-}
-let age_1 = 18;
-let age_2 = 22;
-if (age_1 == 18) {
-    console.log("eligible for vote");
-}
-if (age_1 == 22) {
-    console.log("eligible for vote in older category");
-}
-if (age_1 <= age_2) {
-    console.log("younger");
-}
-if (age_2 >= age_1) {
-    console.log("older");
-}
-if (age_1 == 18 && age_2 == 22) {
-    console.log("person is eligible for vote");
-}
-if (age_1 == 18 || age_2 == 22) {
-    console.log("person is eligible for vote");
-}
-let country = ["pakistan", "saudiArab", "india", "china"];
-if (country.includes("pakistan")) {
-    console.log("pakistan is country list");
-}
-if (country.includes("saudiArab")) {
-    console.log("saudiArab  is not includes in an array");
-}
+let alien_color = "green";
+if (alien_color == "green")
+    console.log("you earn 5 points");
+let alien_colour = "red";
+if (alien_color == "green")
+    console.log("no output");
