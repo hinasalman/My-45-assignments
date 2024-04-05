@@ -1,26 +1,13 @@
-// Store the numbers 1 through 9 in an array
-const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// Store the names of favorite pizzas in an array
+const pizzas: string[] = ["Pepperoni", "Margherita", "BBQ Chicken"];
 
-// Loop through the array
-for (const num of numbers) {
-    // Check if the number is 1, 2, or 3 to determine the proper ordinal ending
-    let ordinalEnding: string;
-    if (num === 1) {
-        ordinalEnding = "st";
 
-    } else if (num === 2) {
-
-        ordinalEnding = "nd";
-
-    } else if (num === 3) {
-
-        ordinalEnding = "rd";
-
-    } else {
-        ordinalEnding = "th";
-        
-    }
+// Loop through the array to print each pizza name and a corresponding statement
+for (const pizza of pizzas) {
     
-    // Print the number with its ordinal ending
-    console.log(`${num}${ordinalEnding}`);
+    console.log(`I like ${pizza} pizza.`);
+
 }
+
+// Print an additional sentence expressing love for pizza
+console.log("I really love pizza!");
