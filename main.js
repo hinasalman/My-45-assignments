@@ -1,17 +1,3 @@
 "use strict";
-// Function to create an item object
-function createItem(name, category, price) {
-    return {
-        name,
-        category,
-        price
-    };
-}
-// Create some sample items
-const item1 = createItem("Laptop", "Electronics", 999);
-const item2 = createItem("Book", "Stationery", 20);
-const item3 = createItem("T-shirt", "Clothing", 30);
-// Display the created items
-console.log("Item 1:", item1);
-console.log("Item 2:", item2);
-console.log("Item 3:", item3);
+const days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+console.log(days[6]);
