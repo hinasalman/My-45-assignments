@@ -1,13 +1,14 @@
-// Store the names of animals with a common characteristic in an array
-const animals: string[] = ["Dog", "Cat", "Rabbit"];
+// Define the make_shirt function
+function make_shirt(size: string, message: string): void {
 
+    console.log(`Shirt size: ${size.toUpperCase()}`);
 
-// Loop through the array to print each animal name and a corresponding statement
-for (const animal of animals) {
-
-console.log(`A ${animal.toLowerCase()} would make a great pet.`);
+    console.log(`Message: ${message}`);
 
 }
 
-// Print a sentence stating what these animals have in common
-console.log("Any of these animals would make a great pet!");
+// Call the function with size and message arguments
+make_shirt("medium", "Hello, World!");
+
+
+
