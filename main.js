@@ -1,8 +1,17 @@
 "use strict";
-// Define an array of countries
-const countries = ["dubai", "oman", "UK", "Australia", "France", "Japan", "Brazil", "India", "China"];
-// Print the list of countries
-console.log("List of countries:");
-countries.forEach((country, index) => {
-    console.log(`${index + 1}. ${country}`);
-});
+// Function to create an item object
+function createItem(name, category, price) {
+    return {
+        name,
+        category,
+        price
+    };
+}
+// Create some sample items
+const item1 = createItem("Laptop", "Electronics", 999);
+const item2 = createItem("Book", "Stationery", 20);
+const item3 = createItem("T-shirt", "Clothing", 30);
+// Display the created items
+console.log("Item 1:", item1);
+console.log("Item 2:", item2);
+console.log("Item 3:", item3);
