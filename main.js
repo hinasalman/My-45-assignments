@@ -1,25 +1,12 @@
 "use strict";
-// Array of favorite fruits
-const favorite_fruits = ["banana", "apple", "mango"];
-// Check for specific fruits
-if (favorite_fruits.includes("banana")) {
-    console.log("You really like bananas!");
-}
-if (favorite_fruits.includes("apple")) {
-    console.log("You really like apples!");
-}
-if (favorite_fruits.includes("mango")) {
-    console.log("You really like mangoes!");
-}
-if (favorite_fruits.includes("strawberry")) {
-    console.log("You really like strawberries!");
-}
-else {
-    console.log("You don't have strawberries in your favorite fruits.");
-}
-if (favorite_fruits.includes("kiwi")) {
-    console.log("You really like kiwis!");
-}
-else {
-    console.log("You don't have kiwis in your favorite fruits.");
+// Array of usernames
+const usernames = ["admin", "Ayesha", "Aira", "manal", "Tehami"];
+// Loop through the array and print greetings
+for (const username of usernames) {
+    if (username.toLowerCase() === "admin") {
+        console.log("Hello admin, would you like to see a status report?");
+    }
+    else {
+        console.log(`Hello ${username}, thank you for logging in again.`);
+    }
 }
